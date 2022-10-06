@@ -2,15 +2,15 @@
 A simple calendar application that allows a user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
 
 ## The URL of the deployed application.
+https://inidhi99.github.io/weekly-planner/
 
 
-
-# User Story
+## User Story
 AS AN employee with a busy schedule
 I WANT to add important events to a daily planner
 SO THAT I can manage my time effectively
 
-# Acceptance Criteria
+## Acceptance Criteria
 GIVEN I am using a daily planner to create a schedule
 WHEN I open the planner
 THEN the current day is displayed at the top of the calendar
@@ -26,4 +26,5 @@ WHEN I refresh the page
 THEN the saved events persist
 
 
-
+## MOCK UP 
+![](Assets/05-third-party-apis-homework-demo.gif)
