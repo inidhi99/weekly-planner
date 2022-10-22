@@ -27,4 +27,4 @@ THEN the saved events persist
 
 
 ## MOCK UP 
-![](Assets/images/Screen%20Shot%202022-10-21%20at%205.06.35%20PM.png)
+![](assets/Screen%20Shot%202022-10-21%20at%205.06.35%20PM.png)
