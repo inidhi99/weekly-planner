@@ -1,13 +1,13 @@
 // date and time using moment js
-
 function displayTime (){
    var date = moment();
 $("#currentDay").text(date.format('dddd, MMMM Do YYYY, h:mm:ss a'));
 }
 
+// set interval to update every second
 var displayTimeInterval = setInterval(displayTime, 1000);
 
-
+// Time function to showcase past, present, future color blocks
 function time (){
     var currentTime = moment().hours();
     $(".description").each(function(){
@@ -23,24 +23,21 @@ function time (){
             $(this).addClass("future")}
     })
 }
-
+// calling the time function 
 time();
 
 var interval = setInterval(time, 60000);
 
-
-
+// saving the input when the save button is clicked (doesnt go away when the page is refreshed)
 $(".saveBtn").on("click", function(){
     var hour = $(this).parent().attr("id");
     var value = $(this).siblings(".description").val()
     localStorage.setItem(hour, value);
-
-
 })
 
-
+// saving it in the local storage 
 $(document).ready(function(){
-    $("#9 .description").val(localStorage.getItem("9"))
+    $("#09 .description").val(localStorage.getItem("9"))
     $("#10 .description").val(localStorage.getItem("10"))
     $("#11 .description").val(localStorage.getItem("11"))
     $("#12 .description").val(localStorage.getItem("12"))
@@ -56,6 +53,8 @@ $(document).ready(function(){
     $("#22 .description").val(localStorage.getItem("22"))
     $("#23 .description").val(localStorage.getItem("23"))
     $("#24 .description").val(localStorage.getItem("24"))
-})
+});
+
+
 
 
