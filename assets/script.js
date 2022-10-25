@@ -37,7 +37,7 @@ function displayTime (){
  
  // saving it in the local storage 
  $(document).ready(function(){
-     $("#09 .description").val(localStorage.getItem("9"))
+     $("#09 .description").val(localStorage.getItem("09"))
      $("#10 .description").val(localStorage.getItem("10"))
      $("#11 .description").val(localStorage.getItem("11"))
      $("#12 .description").val(localStorage.getItem("12"))
